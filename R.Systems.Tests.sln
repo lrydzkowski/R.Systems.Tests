@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R.Systems.Tests", "R.Systems.Tests\R.Systems.Tests.csproj", "{D0E2507D-6A9A-4ED1-9F4A-8D366FE24F1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3AA92096-13A2-403D-BE50-0836103C57F5}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0DEF6AC1-AD17-4EAD-B142-F0F7C7B735D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{3E5FD5FE-AAA2-40E4-AF92-5D3CC545B2B7}"
+	ProjectSection(SolutionItems) = preProject
+		containers.yml = containers.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0E2507D-6A9A-4ED1-9F4A-8D366FE24F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E2507D-6A9A-4ED1-9F4A-8D366FE24F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E2507D-6A9A-4ED1-9F4A-8D366FE24F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E2507D-6A9A-4ED1-9F4A-8D366FE24F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DEF6AC1-AD17-4EAD-B142-F0F7C7B735D8} = {3AA92096-13A2-403D-BE50-0836103C57F5}
+		{3E5FD5FE-AAA2-40E4-AF92-5D3CC545B2B7} = {0DEF6AC1-AD17-4EAD-B142-F0F7C7B735D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B35CCF51-1B59-43E4-930B-F72639CA1C68}
+	EndGlobalSection
+EndGlobal
